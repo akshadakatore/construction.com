@@ -1,0 +1,279 @@
+.top_menu_contact_list{
+	height: 100%;
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+}
+.top_menu_contact_list li{
+	display:inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.top_menu_contact_list i{
+	color:  #F4BC16;
+    margin-right: 7px;
+}
+.logo_section3 ul li{
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 3%;
+	margin-right: 8px;
+	margin-top: 1;
+	font-size: 15px;
+	text-transform: uppercase;
+	float: right;
+  
+}
+@media( max-width:667px){
+
+	.top_menu_contact_list{
+		display: none;}
+		.top_menu_contact_list1{
+			display: none;
+		}
+		button{
+			display: none;
+		}
+	.menubar{
+		display: none;
+	}
+	.card{
+		width: 100%;
+		height: auto;
+	}
+	.div1{
+		width: 100%;
+		
+		text-align: center;
+	}
+}
+
+.top_menu_contact_list1 li{
+	display:inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.menubar{
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.card img:hover{
+	opacity: .10;
+
+	transform: rotate3d(0,0,1s,0deg);
+}
+
+.img1{
+	background-image: url("");
+}
+
+.img1{
+	width: 100%;
+	height:280px;
+	background-image: url("images.jfif");
+	float: left;
+	background-attachment: fixed;
+    
+}
+.slider_contain{
+	text-align: center;
+	height: 280px;
+	width: 100%;
+	background-color: hsla(240,100%,5%,0.6);
+
+
+}
+
+
+
+.btn_toggle1{
+	color: white;
+	border:1px solid orange;
+	border-radius: 30px;
+	height: 30px;
+	width: 50%;
+	background-color: orange;
+	color: black;
+	text-align: center;
+	
+}
+.btn_toggle1:hover{
+     background-color: white;
+     color: black;
+}
+
+@media(max-width: 667px){
+	.logo3{
+		display: none;
+	}
+	.logo4{
+		display: none;
+	}
+	.logo5{
+		display: none;
+	}
+
+
+	.recent_projects1{
+		width: 100%;
+   background-color: #202A44;
+   height: 650px;
+
+
+	}
+	.recent{
+		width: 100%;
+		height: 650px;
+		background-color:#202A44; 
+	}
+		
+	
+	.logo9{
+		width: 50%;
+		
+		
+		
+
+	}
+	.logo10{
+		width: 50%;
+
+		
+	}
+	.logo11{
+		margin-bottom: 0px;
+		width: 50%;
+		height: 200px;
+	}
+	.logo12{
+		 width: 50%;
+	}
+.p{
+
+	background-color: #ffc811;
+}
+}
+
+.footer_1{
+	height: 500px;
+	width: 100%;
+	float: left;
+	background-color:rgb(24, 17, 33);
+}
+.email{
+	height: 50px;
+	width: 60%;
+	float: left;
+	background-color:rgb(24, 17, 33);
+	border: 1px solid lightgray;
+	margin-left: 30px;
+	margin-top:20px;
+}
+.email_1{
+	height: 50px;
+	width: 20%;
+	float: left;
+	background-color: orange;
+	margin-top: 20px;
+
+}
+.email_1 i{
+	margin-top: 15px;
+	margin-left: 15px;
+	color: white;
+}
+.email_1 i:hover{
+	background-color: white;
+	color: black;
+}
+.social h5{
+	margin-left: 40px;
+	color: orange;
+	margin-top: 60px;
+
+}
+.insta{
+	height: 30px;
+	width: 15%;
+	float: left;
+	background-color:black;
+	border-radius: 60px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.insta i{
+	margin-left: 13px;
+	margin-top: 6px;
+	color: white;
+	font-size: 15px;
+}
+.insta i:hover{
+	color: orange;
+}
+.facebook{
+	height: 30px;
+	width: 15%;
+	float: left;
+	background-color:black;
+	border-radius: 60px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.facebook i{
+	margin-left: 13px;
+	margin-top: 6px;
+	color: white;
+	font-size: 15px;
+}
+.facebook i:hover{
+	color: orange;
+}
+.twitter{
+	height: 30px;
+	width: 15%;
+	float: left;
+	background-color:black;
+	border-radius: 60px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.twitter i{
+	margin-left: 13px;
+	margin-top: 6px;
+	color: white;
+	font-size: 15px;
+}
+.twitter i:hover{
+	color: orange;
+}
+.w-app{
+	height: 30px;
+	width: 15%;
+	float: left;
+	background-color:black;
+	border-radius: 60px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.w-app i{
+	margin-left: 13px;
+	margin-top: 6px;
+	color: white;
+	font-size: 15px;
+}
+.w-app i:hover{
+	color: orange;
+}
+
+@media(max-width: 667px){
+	.footer_1{
+		height: 1400px;
+	}
+}
